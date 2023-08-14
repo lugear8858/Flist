@@ -56,6 +56,9 @@
       padding: 8px;
     }
   }
+  .highlight {
+    background-color: #ffcc00;
+  }
 </style>
 <title>V2식단표</title>
 </head>
@@ -132,5 +135,20 @@
       <p>&copy; 구린푸드 </p>
     </div>
   </div>
+<script>
+    // 현재 날짜 가져오기
+    const today = new Date();
+    const dayOfMonth = today.getDate();
+
+    // 오늘 날짜에 해당하는 행 찾아서 하이라이트
+    const tableRows = document.querySelectorAll('.menu-table tbody tr');
+    for (const row of tableRows) {
+      const dateCell = row.cells[0];
+      if (parseInt(dateCell.textContent) === dayOfMonth) {
+        dateCell.classList.add('highlight');
+        break;
+      }
+    }
+  </script>
 </body>
 </html>
