@@ -10,6 +10,11 @@
     padding: 0;
   }
 
+  .day-header {
+  border: 2px solid #333;
+  font-weight: bold;
+  }
+
   .container {
     max-width: 100%;
     margin: 0;
@@ -39,9 +44,6 @@
     text-align: center;
   }
 
-  .menu-table th {
-    background-color: #f0f0f0;
-  }
 
   .footer {
     background-color: #333;
@@ -57,10 +59,14 @@
       padding: 8px;
     }
   }
+
   .highlight {
     background-color: #ffcc00;
   }
+
+
 </style>
+
 <link rel="icon" href="favi.ico" type="image/x-icon">
 <link rel="shortcut icon" href="16favi.ico" type="image/x-icon">
 <link rel="apple-touch-icon" sizes="180x180" href="app.png">
@@ -73,68 +79,227 @@
       <h1>8월 5주차 식단표</h1>
     </div>
     <div class="content">
-      <table class="menu-table">
-        <thead>
-          <tr>
-            <th>-</th>
-            <th>아침</th>
-            <th>점심</th>
-            <th>저녁</th>
-            <th>배차</th>
-          </tr>
-        </thead>
+       <table class="menu-table">
+        <colgroup>
+          <col width="20%">
+          <col width="15%">
+          <col>
+        </colgroup>
+   
         <tbody>
+<!-- 월-->
           <tr>
-            <td>28(월)</td>
-            <td>너비아니구이<br>카스테라</td>
-            <td>동태강정</td>
-            <td>고기국수</td>
-            <td>나무<br>한국관</td>
+            <th rowspan="3">28일<br>(월)</th>
+            <th>조식</th>
+            	<td>너비아니구이<br>
+		쌀밥/잡곡밥/야채죽<br>
+		북엇국<br>
+		버섯볶음<br>
+		토마토</td>
+	<td rowspan="3">NAMU<br>한국관</td>
           </tr>
-<tr>
-            <td>29일(화)</td>
-            <td>꽁치무조림<br>햄치즈롤</td>
-            <td>영양닭죽</td>
-            <td>간장소불고기</td>
-            <td>우리집<br>OLA</td>
+          <tr>
+            <th>중식</th>
+            <td>동태강정<br>
+		잡곡밥<br>
+		콩가루배춧국</td>
           </tr>
-<tr>
-            <td>30일(수)</td>
-            <td>닭살춘장볶음/라면<br>크림빵</td>
-            <td>전주비빔밥</td>
-            <td>참치김치덮밥</td>
-            <td>나무<br>한국관</td>
+          <tr>
+            <th>석식</th>
+            <td>고기국수<br>
+		현미밥<br>
+		어묵볶음<br>
+		베이컨스크램블에그<br>
+		맛살야채볶음<br>
+		매실차</td>
+
           </tr>
-<tr>
-            <td>31일(목)</td>
-            <td>미트볼피망볶음<br>크림단팥빵</td>
-            <td>미역국국수</td>
-            <td>스모크햄전</td>
-            <td>나무<br>우리집</td>
+<!-- ㅇㅇ화ㅇㅇ-->
+             <tr>
+            <th rowspan="3">29일<br>(화)</th>
+            <th>조식</th>
+            	<td>꽁치무조림<br>
+            	쌀밥/옥수수스프<br>
+            	순두부백탕<br>
+            	로메인무침<br>
+</td>
+	<td rowspan="3">우리집<br>OLA</td>
           </tr>
-<tr>
-            <td>01일(금)</td>
-            <td>가자미구이<br>건포도파운드케익</td>
-            <td>닭볶음탕</td>
-            <td>쇠고기영양탕</td>
-            <td>나무</td>
+          <tr>
+            <th>중식</th>
+            <td>영양닭죽<br>
+            해물동그랑땡전<br>
+            진미채볶음<br>
+            양파초절임<br>
+            메론/포도<br>
+</td>
           </tr>
-<tr>
-            <td>02일(토)</td>
-            <td>치킨너겟</td>
-            <td>육개장</td>
-            <td>카레라이스</td>
-            <td>나무</td>
+          <tr>
+            <th>석식</th>
+            <td>간장소불고기<br>
+            아욱된장국<br>
+            무말랭이지<br>
+            병아리콩조림<br>
+            마카로니샐러드<br>
+</td>
           </tr>
-<tr>
-            <td>03일(일)</td>
-            <td>후랑크야채볶음</td>
-            <td>순대볶음</td>
-            <td>갈치조림</td>
-          </tr>  
+
+<!--ㅇㅇㅇ-->
+<!-- ㅇㅇ수ㅇㅇ-->
+             <tr>
+            <th rowspan="3">30일<br>(수)</th>
+            <th>조식</th>
+            	<td>닭살춘장볶음<br>
+            	쌀밥/누룽지<br>
+            	바지락무국<br>
+            	숙주나물<br>
+            	라면<br>
+</td>
+	<td rowspan="3">NAMU<br>한국관</td>
+          </tr>
+          <tr>
+            <th>중식</th>
+            <td>전주비빔밥<br>
+            오이냉국<br>
+            손만두찜<br>
+            우채호박볶음<br>
+            근대나물<br>
+</td>
+          </tr>
+          <tr>
+            <th>석식</th>
+            <td>참치김치덮밥<br>
+            콩나물국<br>
+            비엔나피망볶음<br>
+            건파래볶음<br>
+            마늘쫑장아찌<br>
+            복분자홍초</td>
+          </tr>
+
+
+<!--ㅇㅇㅇ-->
+<!-- ㅇㅇ목ㅇㅇ-->
+             <tr>
+            <th rowspan="3">31일<br>(목)</th>
+            <th>조식</th>
+            	<td>미트볼피망볶음<br>
+            	쌀밥/누룽지<br>
+            	호박맑은국<br>
+            	가지나물<br>
+</td>
+	<td rowspan="3">NAMU<br>우리집</td>
+          </tr>
+          <tr>
+            <th>중식</th>
+            <td>미역국국수<br>
+            김치전<br>
+            계란찜<br>
+            콩자반<br>
+            사과/오렌지<br>
+</td>
+          </tr>
+          <tr>
+            <th>석식</th>
+            <td>스모크햄전<br>
+            사골파국<br>
+            오징어초무침<br>
+            열무나물<br>
+            과일주스</td>
+          </tr>
+
+<!--ㅇㅇㅇ-->
+<!-- ㅇㅇㅇ금ㅇ-->
+             <tr>
+            <th rowspan="3">1일<br>(금)</th>
+            <th>조식</th>
+            	<td>가자미구이<br>
+            	쌀밥/단호박죽<br>
+            	쇠고기무국<br>
+            	브로콜리<br>
+</td>
+	<td rowspan="3">NAMU</td>
+          </tr>
+          <tr>
+            <th>중식</th>
+            <td>닭볶음탕<br>
+            청국장찌개<br>
+            멸치볶음<br>
+            무나물<br>
+            과일샐러드&녹차<br>
+</td>
+          </tr>
+          <tr>
+            <th>석식</th>
+            <td>쇠고기영양탕<br>
+            한식잡채<br>
+            탕평채<br>
+            오이무침<br>
+            수정과</td>
+          </tr>
+<!--ㅇㅇㅇ-->
+<!-- ㅇㅇ토ㅇㅇ-->
+             <tr>
+            <th rowspan="3">2일<br>(토)</th>
+            <th>조식</th>
+            	<td>치킨너겟<br>
+            	쌀밥/누룽지<br>
+            	된장찌개<br>
+            	시금치나물<br>
+            	라면</td>
+	<td rowspan="3">-</td>
+          </tr>
+          <tr>
+            <th>중식</th>
+            <td>육개장<br>
+            매생이전<br>
+            감자조림<br>
+            양념깻잎지<br>
+</td>
+          </tr>
+          <tr>
+            <th>석식</th>
+            <td>카레라이스<br>
+            미니쌀국수<br>
+            야채고로케<br>
+            우엉조림<br>
+            적양파무침</td>
+          </tr>
+<!--ㅇㅇㅇ-->
+
+
+<!-- ㅇㅇㅇㅇ-->
+             <tr>
+            <th rowspan="3">3일<br>(일)</th>
+            <th>조식</th>
+            	<td>후랑크야채복음<br>
+            	쌀밥/누룽지<br>
+            	홍합무국<br>
+            	무생채</td>
+	<td rowspan="3">-</td>
+          </tr>
+          <tr>
+            <th>중식</th>
+            <td>순대볶음<br>
+            고추장찌개<br>
+            녹두빈대떡<br>
+            부추생채<br>
+            레몬에이드<br></td>
+          </tr>
+          <tr>
+            <th>석식</th>
+            <td>갈치조림<br>
+            두부새우젓국<br>
+            계란말이<br>
+            오복지<br>
+            비빔코너</td>
+          </tr>
+<!--ㅇㅇㅇ-->
+
+
 
         </tbody>
       </table>
+
     </div>
     <div class="footer">
       <p>&copy; 구린푸드 </p>
@@ -149,11 +314,14 @@
     const tableRows = document.querySelectorAll('.menu-table tbody tr');
     for (const row of tableRows) {
       const dateCell = row.cells[0];
+console.log(dateCell);
       if (parseInt(dateCell.textContent) === dayOfMonth) {
         dateCell.classList.add('highlight');
         break;
       }
     }
   </script>
+
+
 </body>
 </html>
