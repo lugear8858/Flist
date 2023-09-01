@@ -323,7 +323,7 @@
     const tableRows = document.querySelectorAll('.menu-table tbody tr');
     for (const row of tableRows) {
       const dateCell = row.cells[0];
-console.log(dateCell);
+
       if (parseInt(dateCell.textContent) === dayOfMonth) {
         dateCell.classList.add('highlight');
         break;
